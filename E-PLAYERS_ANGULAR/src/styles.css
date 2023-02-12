@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+/*CSS RESET*/
+@import url("https://fonts.googleapis.com/css2? família=Titillium+Web:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2? família=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*PONTO PORQUE NÃO É UMA TAG E SIM UMA CLASSE*/
+
+#barras {
+  display: none;
+}
+/*COM O DISPLAY FLEX EU DESCOLO AS COISAS E TAMBÉM DESBLOQUEIO O JUSTIFY-CONTENT*/
+
+header {
+  background-color: black;
+  height: 100px;
+  padding-top: 30px;
+}
+
+a {
+  color: rgb(8, 143, 19);
+}
+
+h1 {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-grid {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-grid {
+    width: 800px;
+  }
+  #barras {
+    display: inline-block;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.redes-sociais h5 {
+  color: white;
+}
+
+.redes-sociais {
+  padding-left: 900px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  padding-left: 850px;
+  background-color: black;
+}
+
+.icon-redes {
+  padding-left: 30px;
+}
+
+.col-auto button {
+  margin-top: 40px;
+}
+
+.row p {
+  color: yellow;
+}

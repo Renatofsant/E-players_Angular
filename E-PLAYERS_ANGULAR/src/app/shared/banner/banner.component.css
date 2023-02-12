@@ -1,0 +1,51 @@
+.banner {
+  height: 607px;
+  background-image: url(../img/ImagemBanner.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.conteudo-banner h1 {
+  color: aliceblue;
+  font-family: "Arial";
+  font-size: 80px;
+  margin-left: 600px;
+}
+.conteudo-banner p {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-size: 25px;
+  margin-left: 600px;
+}
+.conteudo-banner a {
+  padding: 25px;
+  background-color: #c31616;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 600px;
+}
+.conteudo-banner {
+  width: 497;
+  height: 237;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.posicionamento-banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
